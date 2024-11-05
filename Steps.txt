@@ -1,0 +1,28 @@
+Install Klipper on CB1
+Install KTC V1
+using this
+
+cd ~
+git clone https://github.com/TypQxQ/Klipper_ToolChanger.git
+Edit moonraker.conf by adding the following entry:
+[update_manager client klipper_toolchanger]
+type: git_repo
+path: ~/Klipper_ToolChanger
+origin: https://github.com/TypQxQ/Klipper_ToolChanger.git
+install_script: install.sh
+is_system_service: False
+Run the install.sh script
+~/Klipper_ToolChanger/install.sh
+
+
+Set up simple_config and macros
+Change variables to fit printer size
+Tested locking and unlocking
+Ran command SAVE_CURRENT_TOOL T=-1 - Worked
+Homed X/Y/Z
+Ran SUB_TOOL_DROPOFF T=0 - Worked
+
+Reset Klipper
+Homed XYZ
+Ran KTCC_T1
+Klipper Internal error on command:"KTCC_T1"

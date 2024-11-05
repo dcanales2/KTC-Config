@@ -1,0 +1,20 @@
+ToolChanger Statistics:
+KTCC Statistics:
+0 seconds spent mounting tools
+0 seconds spent unmounting tools
+9 tool locks completed
+17 tool unlocks completed
+0 tool mounts completed
+0 tool unmounts completed
+------------
+Tool Statistics:
+Tool#0:
+Completed 0 out of 1 mounts in 0 seconds. Average of 0 seconds per toolmount.
+Completed 0 out of 0 unmounts in 0 seconds. Average of 0 seconds per toolunmount.
+0 seconds spent selected. 0 seconds with active heater and 0 seconds with standby heater.
+------------
+Tool#1:
+Completed 0 out of 0 mounts in 0 seconds. Average of 0 seconds per toolmount.
+Completed 0 out of 0 unmounts in 0 seconds. Average of 0 seconds per toolunmount.
+0 seconds spent selected. 0 seconds with active heater and 0 seconds with standby heater.
+------------
