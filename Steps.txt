@@ -26,3 +26,26 @@ Reset Klipper
 Homed XYZ
 Ran KTCC_T1
 Klipper Internal error on command:"KTCC_T1"
+
+11:45 AM
+- DEBUG: _save_changes_timer_event:Exception: Internal error on command:"KTCC_T1"
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+11:45 AM
+Internal error on command:"KTCC_T1"
+11:45 AM
+Internal error on command:"KTCC_T1"
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Printer is shutdown
+11:45 AM
+Internal error on command:"KTCC_T1"
+11:45 AM
+Klipper state: Shutdown
+11:45 AM
+Activating extruder extruder1
+11:45 AM
+KTCC_T1
